@@ -1,0 +1,5 @@
+2026-10-23T06:12:01Z [INFO] [SUBSYS_NAV] Optical tracker calibrated successfully.
+2026-10-23T06:14:22Z [INFO] [SUBSYS_ARM] Joint 1-6 torque nominal.
+2026-10-23T06:30:15Z [WARN] [SUBSYS_TELEMETRY] Articulation jitter detected on Joint 3 (delta > 0.04mm).
+2026-10-23T06:31:02Z [ERROR] [SUBSYS_ARM] Actuator Stall: Joint 3 motor current exceeded threshold (4.2A > 3.5A limit).
+2026-10-23T06:31:03Z [FATAL] [SUBSYS_CONTROL] Safety interlock triggered. Arm motion halted. Error Code: ERR_SURG_ACT_303.

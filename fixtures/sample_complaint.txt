@@ -1,0 +1,8 @@
+COMPLAINT INTAKE RECORD
+Hospital Facility: Synthetic General Hospital - OR 2
+Operating Surgeon: Dr. Synthetic Staff, MD
+Patient Name: Jane Doe (DOB: 1970-01-01, MRN: 000000)
+Procedure: Robotic Assisted Nephrectomy
+Device Serial: SURG-BOT-TEST-001
+Incident Narrative:
+Primary robotic arm (Joint 3) stalled during resection. Movement ceased. Switched to manual laparoscopic tools. No tissue laceration. Patient stable.

@@ -1,0 +1,36 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Sensitive or Transient Ingestion Drops
+incoming/*
+!incoming/.gitkeep
+
+# Bronze Layer: Keep structure, NEVER commit raw hospital logs or audit trails
+bronze/raw_vault/*
+!bronze/raw_vault/.gitkeep
+bronze/audit_logs/*
+!bronze/audit_logs/.gitkeep
+
+# Silver Layer: Never commit patient narratives or extracted case payloads
+silver/sanitized/*
+!silver/sanitized/.gitkeep
+silver/payloads/*
+!silver/payloads/.gitkeep
+
+# Gold Layer: Never commit final medical investigation drafts
+gold/reports/*
+!gold/reports/.gitkeep
+
+# Environment variables & credentials
+.env
+*.pem
+*.key
